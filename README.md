@@ -23,8 +23,9 @@ Run
 npm install
 ```
 
-Error: stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
-Solution: npm install --global --production windows-build-tools
+* Error: stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+
+* Solution: npm install --global --production windows-build-tools
 
 
 If you run into an error while building the dependencies and you're on a Mac, run the code below, remove your `node_modules` folder, and do a fresh `npm install`:
